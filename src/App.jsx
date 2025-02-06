@@ -1,12 +1,22 @@
-import { Route , Routes } from "react-router-dom"
-import Home from "./components/home/Home"
-function App() {
+import About from "./components/about/About"
+import Footer from "./components/footer/Footer"
+import Header from "./components/header/Header"
+import Hero from "./components/hero/Hero"
+import Pricing from "./components/priceng/Pricing"
+import Sponsor from "./components/sponsor/Sponsor"
+import Vendor from "./components/vendor/Vendor"
 
+
+function App() {
   return (
     <>
-     <Routes>
-      <Route path="/" element={<Home />}/>
-     </Routes>
+    <Header />
+    <Hero />
+    <Sponsor />
+    <About />
+    <Pricing />
+    <Vendor />
+    <Footer />
     </>
   )
 }
