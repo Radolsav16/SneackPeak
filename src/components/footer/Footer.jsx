@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { goUp } from "../../utils/goUp";
+
 export default function Footer(){
     return(
         <>
@@ -8,7 +11,6 @@ export default function Footer(){
           <ul>
             <li>Instagram</li>
             <li>Tiktok</li>
-            <li>Twitter</li>
           </ul>
         </div>
         <div className="contact-us">
@@ -24,14 +26,14 @@ export default function Footer(){
           <ul>
             <li>Privacy Policy</li>
             <li>Terms & Conditions</li>
-            <li>Ticket & Refund Policy</li>
+            <li><Link to={"/sneakpeak/faq"} onClick={goUp}>FAQ</Link></li>
           </ul>
         </div>
       </div>
       <div className="footer-bottom">
         <p>© 2025 Sneakpeak. All rights reserved.</p>
         <div className="footer-logo">
-            <img src="./src/assets/Screenshot_3-removebg-preview.png"/>
+            <img src="/src/assets/Screenshot_3-removebg-preview.png"/>
         </div>
       </div>
     </footer>
