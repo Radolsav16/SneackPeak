@@ -3,9 +3,9 @@ export default function Hero(){
         <>
          <section className="hero">
         <div className="hero-text">
-          <p className="hero-heading"><span>First Bulgarian</span></p>
-          <p className="hero-heading"><span>Sneakercon</span></p>
-          <h2>By SneakPeak</h2>
+          <h1>First Bulgarian Sneakercon</h1>
+          <h2>BY SNEAKPEAK</h2>
+          <h2>START IN : 50 DAYS</h2>
         </div>
         <div className="hero-image">
           <img src="./src/assets/giphy.gif" alt="3D Logo" />
