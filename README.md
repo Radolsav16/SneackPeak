@@ -7,3 +7,4 @@ Welcome to **SneakPeak**! This website was created with the goal of uniting and 
 - **Backend**: MongoDB for clients
 - **Database**: MongoDB
 
+![Image](https://github.com/user-attachments/assets/f7aa158c-7ade-4c58-adc2-741ce6a3b5df)
