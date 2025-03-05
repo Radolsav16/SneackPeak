@@ -12,6 +12,8 @@ import SponsorPage from "./pages/SponsorPage"
 import Main from "./pages/Main"
 import BecomeVendor from "./pages/BecomeVendor"
 import FaqPage from "./pages/FaqPage"
+import TermsPolicy from "./pages/Terms&Policy"
+import AboutPage from "./pages/AboutPage"
 
 
 
@@ -24,14 +26,10 @@ function App() {
       <Route path="/sneakpeak/sponsors" element={<SponsorPage />} />
       <Route path="/sneakpeak/become-vendor" element={<BecomeVendor />} />
       <Route path="/sneakpeak/faq" element={<FaqPage />} />
-
-
-      {/* <Sponsor />
-      <About />
-      <Pricing />
-      <Image />
-      <Vendor />*/}
-      </Routes>
+      <Route path="/sneakpeak/terms-policy" element={<TermsPolicy />} />
+      <Route path="/sneakpeak/about" element={<AboutPage />} />
+    
+    </Routes>
     <Footer />
     </>
   )
