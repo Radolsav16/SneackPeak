@@ -1,4 +1,9 @@
-export default function Pricing(){
+import { useState } from "react"
+import Modal from "../modal/Modal";
+
+export default function Pricing({
+  SetModal,
+}){
     return(
         <>
         <section>
@@ -18,7 +23,7 @@ export default function Pricing(){
             <li>MEET SNEAKERHEADS</li>
             <li>PLAY AND WIN AMAZING PRIZES</li>
           </ul>
-          <button className="card-button">BUY</button>
+          <button className="card-button" onClick={()=>SetModal(true)}>BUY</button>
         </div>
 
         <div className="card">
@@ -33,7 +38,7 @@ export default function Pricing(){
             <li>MEET SNEAKERHEADS</li>
             <li>PLAY AND WIN AMAZING PRIZES</li>
           </ul>
-          <button className="card-button">BUY</button>
+          <button className="card-button" onClick={()=>SetModal(true)}>BUY</button>
         </div>
 
         <div className="card">
@@ -50,7 +55,7 @@ export default function Pricing(){
             <li>PLAY AND WIN AMAZING PRIZES</li>
             <li>CHANCE TO WIN 400+ BGN SNEAKER</li>
           </ul>
-          <button className="card-button">BUY</button>
+          <button className="card-button" onClick={()=>SetModal(true)}>BUY</button>
         </div>
       </div>
     </div>
