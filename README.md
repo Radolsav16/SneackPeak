@@ -1,8 +1,9 @@
-# React + Vite
+# SneakPeak 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **SneakPeak**! This website was created with the goal of uniting and empowering a community of sneaker lovers and street fashion enthusiasts in Bulgaria. As a team of young enthusiasts, we are on a mission to transform the sneakerhead culture and create a space where people can share their passion for sneakers, streetwear, and everything in between.
 
-Currently, two official plugins are available:
+We are proud to be the first to bring the **SneakerCon experience** to Bulgaria! The road ahead is long, but with your support, we can make it happen. Are you ready to be part of sneaker culture history in Bulgaria?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
