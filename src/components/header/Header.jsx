@@ -17,9 +17,8 @@ export default function Header() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/sneakpeak/about">About Us</Link></li>
           <li><Link to="/sneakpeak/sponsors">Sponsors</Link></li>
-          <li><Link to="sneakpeak/become-vendor">Become A Vendor</Link></li>
-          <li><a href="/terms-policy">Terms & Policy</a></li>
-          <li><Link to="/sneakpeak/faq">FAQ</Link></li>
+          <li><Link to="/sneakpeak/become-vendor">Become A Vendor</Link></li>
+          <li><a href="/sneakpeak/terms-policy">Terms & Policy</a></li>
           <li><a href="/" className="buy-tickets">Buy Tickets</a></li>
         </ul>
       </nav>

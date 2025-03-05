@@ -17,10 +17,9 @@ export default function About() {
                 you ready to be part of history?
               </strong>
             </p>
-            <button className="more-btn">More</button>
           </div>
           <div className="about-image">
-            <img src="./src/assets/3d-chicago-unscreen.gif" alt="Sneaker" />
+            <img src="/src/assets/3d-chicago-unscreen.gif" alt="Sneaker" />
           </div>
         </div>
       </section>

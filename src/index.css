@@ -6,6 +6,140 @@ body {
   font-family: 'Intro', sans-serif;
 }
 
+/* Terms and policy  */
+
+/* General Container */
+.terms-policy-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 40px 40px;
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Title */
+.terms-policy-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Headings */
+.terms-policy-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs */
+.terms-policy-text {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Lists */
+.terms-policy-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.terms-policy-list-item {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Goals Section */
+.goals-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+  border-top: 2px solid black;
+  padding-top: 30px;
+}
+
+.goals-image {
+  max-width: 300px;
+  height: auto;
+}
+
+.goals-content {
+  max-width: 600px;
+  text-align: left;
+}
+
+.goals-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.goals-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.goals-subtitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+/* Goals */
+.goals-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.goals-image {
+  max-width: 300px;
+  height: auto;
+}
+
+.goals-content {
+  max-width: 600px;
+  text-align: left;
+}
+
+.goals-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.goals-text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: black;
+}
+
+.goals-subtitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+}
+
 
 /* Navbar */
 .navbar {
