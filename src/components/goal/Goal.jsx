@@ -1,23 +1,11 @@
 export default function Goal(){
     return(
         <>
-      {/* <div className="goals-section">
-        <img src="/src/assets/bul-sneak.png" alt="Sneakpeak Map" className="goals-image" />
-        <div className="goals-content">
-          <h2 className="goals-title">GOALS</h2>
-          <p className="goals-text">
-            Our goal is to establish a streetwear market at least twice a year within the next two years, while also
-            supporting local brands in Bulgaria. Sneakpeak is not a business; it is a cultural event that combines fashion,
-            music, entertainment, and prizes. Our team will continue to develop the idea because we, too, strongly long for
-            events like this.
-          </p>
-          <h3 className="goals-subtitle">2025 GOALS:</h3>
-          <p className="goals-text">SNEAKPEAK SOFIA</p>
-          <p className="goals-text">SNEAKPEAK VARNA</p>
-        </div>
-      </div> */}
        <section className="about">
         <div className="about-container">
+        <div className="about-image">
+          <img src="/src/assets/bul-sneak.png" alt="Sneakpeak Map" className="goals-image" />
+          </div>
           <div className="about-text">
             <h2>Goals</h2>
             <p>
@@ -33,9 +21,7 @@ export default function Goal(){
           <p className="goals-text">SNEAKPEAK SOFIA</p>
           <p className="goals-text">SNEAKPEAK VARNA</p>
           </div>
-          <div className="about-image">
-          <img src="/src/assets/bul-sneak.png" alt="Sneakpeak Map" className="goals-image" />
-          </div>
+         
         </div>
       </section>
         </>

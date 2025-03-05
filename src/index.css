@@ -88,6 +88,7 @@ body {
 .goals-text {
   font-size: 16px;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 .goals-subtitle {
@@ -201,7 +202,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 20px;
+  padding: 30px;
   min-height: 70vh;
 }
 
@@ -298,7 +299,7 @@ body {
 /* Sponsors Section */
 .sponsors {
   text-align: center;
-  padding: 80px 50px;
+  padding: 30px;
   background-color: rgb(0, 0, 0); /* Black background */
   color: white;
 }
@@ -307,7 +308,7 @@ body {
   font-size: 36px;
   font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 /* Image Section */
@@ -498,7 +499,7 @@ body {
   line-height: 1.6;
   font-weight: 500;
   color: black;
-
+  font-weight: bold;
 }
 
 .more-btn{
@@ -591,6 +592,8 @@ body {
 .card-features li {
   font-size: 14px;
   margin-bottom: 8px;
+  font-weight: bold;
+  color: black;
 }
 
 .card-button {
@@ -723,8 +726,10 @@ body {
   padding: 0;
 }
 
-.footer-content li {
+.footer-content li a {
   margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
 }
 
 .footer-bottom {
@@ -739,6 +744,53 @@ body {
   width: 100%;
   margin: 10px 0;
 }
+
+/* Modal overlay to cover the entire screen */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal content box */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+/* Message style */
+.modal-message {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Close button style */
+.close-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.close-button:hover {
+  background-color: #0056b3;
+}
+
 
 @media (min-width: 768px) {
   .footer-bottom p {
@@ -834,5 +886,24 @@ body {
 
   .logo img {
     height: 40px;
+  }
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .image-section {
+    padding: 10px;
+  }
+
+  .image-section img {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .image-section img {
+    width: 100%;
   }
 }

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Sponsor() {
   return (
     <>
@@ -18,8 +20,8 @@ export default function Sponsor() {
             <p>📞 +359 888 407 209</p>
             <p>
               📧{" "}
-              <a href="mailto:sneak.partners@gmail.com">
-                sneak.partners@gmail.com
+              <a href="mailto:sneakpeak2k24@gmail.com">
+              sneakpeak2k24@gmail.com
               </a>
             </p>
           </div>
