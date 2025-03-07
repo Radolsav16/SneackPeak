@@ -9,17 +9,17 @@ export default function Footer(){
         <div className="follow-us">
           <h2>FOLLOW US</h2>
           <ul>
-            <li className="footer-links"><Link to={"/sneakpeak/gmail"} onClick={goUp}>Instagram</Link></li>
+            <li className="footer-links"><Link to={"https://www.instagram.com/sneak25peak"} onClick={goUp}>Instagram</Link></li>
             <li className="footer-links"><Link to={"https://www.tiktok.com/@sneak25peak?is_from_webapp=1&sender_device=pc"} onClick={goUp}>Tiktok</Link></li>
           </ul>
         </div>
         <div className="contact-us">
           <h2>CONTACT US</h2>
           <ul>
-            <li className="footer-links"><Link to={"/sneakpeak/gmail"} onClick={goUp}>sneakpeak2k24@gmail.com</Link></li>
+            <li className="footer-links"><a href="mailto:sneakpeak2k24@gmail.com" onClick={goUp}>sneakpeak2k24@gmail.com</a></li>
     
-            <li>+359 888407209</li>
-            <li>24/7 Support service</li>
+            <li className="footer-links">+359 888407209</li>
+            <li className="footer-links">24/7 Support service</li>
           </ul>
         </div>
         <div className="terms-policy">
@@ -34,7 +34,7 @@ export default function Footer(){
       <div className="footer-bottom">
         <p>© 2025 Sneakpeak. All rights reserved.</p>
         <div className="footer-logo">
-            <Link to={'/'}><img src="/src/assets/Screenshot_3-removebg-preview.png"/></Link>
+            <Link to={'/'}><img src="/assets/Screenshot_3-removebg-preview.png"/></Link>
         </div>
       </div>
     </footer>

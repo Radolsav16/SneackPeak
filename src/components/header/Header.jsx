@@ -1,25 +1,30 @@
 import { Link } from "react-router-dom";
+
 export default function Header({
-  SetModal
+  setModal,
 }) {
   return (
     <>
-      <nav className="navbar">
-        <div className="logo">
-          <Link to={"/"}><img src="/src/assets/Screenshot_4-removebg-preview.png" alt="SneakPeak Logo" /></Link>
-        </div>
-     
-      
-      {/* className="nav-links" */}
-        <ul className="nav-links">
-          {/* <li><Link to="/">Home</Link></li> */}
-          <li><Link to="/sneakpeak/about">About Us</Link></li>
-          <li><Link to="/sneakpeak/sponsors">Sponsors</Link></li>
-          <li><Link to="/sneakpeak/become-vendor">Become A Vendor</Link></li>
-          <li><Link to="/sneakpeak/terms-policy">Terms & Policy</Link></li>
-          <li><Link  className="buy-tickets" onClick={()=>SetModal(true)}>Buy Tickets</Link></li>
-        </ul>
-      </nav>
+  <nav className="navbar">
+    {/* Logo on the Left */}
+    <div className="logo">
+      <Link to={"/"}>
+        <img src="/assets/Screenshot_4-removebg-preview.png" alt="SneakPeak Logo" />
+      </Link>
+    </div>
+
+    {/* Links & Button on the Right */}
+    <div className="nav-container">
+      <ul className="nav-links">
+        <li><Link to="/sneakpeak/about">About Us</Link></li>
+        <li><Link to="/sneakpeak/sponsors">Sponsors</Link></li>
+        <li><Link to="/sneakpeak/become-vendor">Become A Vendor</Link></li>
+        <li><Link to="/sneakpeak/terms-policy">Terms & Policy</Link></li>
+      </ul>
+      <Link className="button-buy" onClick={()=>setModal(true)}><span>Buy Tickets</span></Link> 
+    </div>
+  </nav>
+       
     </>
   );
 }
