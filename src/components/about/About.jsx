@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function About() {
   return (
     <>
@@ -19,9 +21,10 @@ export default function About() {
             </p>
           </div>
           <div className="about-image">
-            <img src="/src/assets/3d-chicago-unscreen.gif" alt="Sneaker" />
+            <img src="/assets/3d-chicago-unscreen.gif" alt="Sneaker" />
           </div>
         </div>
+        <Link className="custom-button" to={"/sneakpeak/about"}>More</Link>
       </section>
     </>
   );

@@ -7,12 +7,16 @@ import Pricing from "../components/priceng/Pricing";
 import Sponsor from "../components/sponsor/Sponsor";
 import VendorSection from "../components/vendor-section/VendorSection";
 
+
+
 export default function Main({
     modal,
     onClose,
-    SetModal 
+    SetModal ,
+    setWhite
 }){
-  
+  setWhite(false);
+  document.body.style.backgroundColor = 'black';
     return(
         <>
             {modal && <Modal onClose={onClose}/>}
