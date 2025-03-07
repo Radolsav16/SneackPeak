@@ -17,3 +17,7 @@ Welcome to **SneakPeak**! This website was created with the goal of uniting and 
 ![Image](https://github.com/user-attachments/assets/3cd9ad6a-3f5f-4f00-9d81-a9592726660e)
 
 ![Image](https://github.com/user-attachments/assets/7427d259-78a6-4988-8b5f-c0d9162c17cf)
+
+
+## LINK 
+http://incomparable-macaron-e3e3de.netlify.app/
